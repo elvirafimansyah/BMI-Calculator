@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(120deg, #22272E, #4e5866);
+}
+.box {
+  min-height: 80vh;
+  background: linear-gradient(#6930c3, #80ffdb);
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.box .h2 {
+  text-align: center;
+  color: white;
+}
+#result h2 {
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+form input {
+  width: 50%;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0;
+  font-size: 20px;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+form button {
+  width: 40%;
+  height: 30%;
+  font-size: 25px;
+  margin-top: 10px;
+  border: none;
+  background-color: #FF8CA7;
+  padding: 0.5rem 0;
+  color: white;
+  border-radius: 3px;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: #db5675;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  outline: none;
+}
+.inputname {
+  width: 90%;
+}
+/* Notes */
+.notes {
+  width: 30%;
+  min-height: 20vh;
+  background: white;
+  padding: 20px;
+  border-radius: 1rem;
+}
+.notes h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 8px;
+}
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #a7f3b7;
+}
